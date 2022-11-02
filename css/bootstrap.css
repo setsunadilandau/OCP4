@@ -1406,7 +1406,7 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    
     text-decoration: none
 }
 
@@ -1432,6 +1432,15 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
+
+.img-resolution,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    min-height: auto;
+}
+
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
@@ -1594,11 +1603,6 @@ h6 small {
 .h1,
 h1 {
     font-size: 36px
-}
-
-.h2,
-h2 {
-    font-size: 30px
 }
 
 .h3,
@@ -2042,7 +2046,6 @@ pre code {
 .col-sm-1,
 .col-sm-10,
 .col-sm-11,
-.col-sm-12,
 .col-sm-2,
 .col-sm-3,
 .col-sm-4,
